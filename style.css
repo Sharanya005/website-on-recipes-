@@ -1,0 +1,40 @@
+body{
+    background-image: url('hero.png');
+    background-size: cover;
+    padding-bottom: 300px;
+}
+.logo{
+    display: flex;
+    padding-left: 350px;
+    padding-top: 25px;
+}
+.container{
+    padding-bottom: 20px;
+    min-height: 100vh;
+}
+
+.headName{
+    color: rgb(34, 34, 97);
+    text-align: center;
+    padding-top: 20px;
+}
+
+#msg{
+    text-align: center;
+    color: whitesmoke;
+    display: none;
+    margin-bottom: 20px;
+}
+#items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.singleItem{
+    cursor: pointer;
+}
+#details{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
